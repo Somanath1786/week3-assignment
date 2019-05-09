@@ -22,14 +22,14 @@ class HeaderSection extends React.Component {
     render() {
         const {classes} = this.props;
         return (
-            <div className={this.props.classes.root}> 
+            <div className={classes.root}> 
             <Card> 
                 <AppBar 
-                    className={this.props.classes.appbar}
+                    className={classes.appbar}
                     position="static" color="default">
                     <Toolbar>
                         <Typography                             
-                            variant="h4" color="inherit ">
+                            variant="h4" color="inherit">
                             Soma's Vacation Rentals
                         </Typography>
                     </Toolbar>                    

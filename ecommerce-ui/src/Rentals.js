@@ -2,35 +2,31 @@ import React from 'react';
 import RentalCard from './RentalCard'
 import { withStyles } from '@material-ui/core/styles';
 import { Grid , Button, Card } from '@material-ui/core';
-
-import airBnBRentals from './airbnbs.json';
 import { cyan } from '@material-ui/core/colors';
 
 const styles = theme => ({    
     background: {
-        background: cyan[300]     
+        background: cyan[300],
     },
     button: {
         margin: theme.spacing.unit,
+        marginTop : 20,
         marginBottom : 20,
+        float: "left",
+        position: "relative",
+        right:"-1%"
       },
 });
 
 class Rentals extends React.Component {
-    
-    constructor(props) {
-        super(props);
-        this.state = {
-            rentals : airBnBRentals
-        }
-    }
 
     render() {
-        const {classes} = this.props;        
-        const rentalCards = this.state.rentals
+        const {classes, rentals, onClick} = this.props;       
+        
+        const rentalCards = rentals
                             .map((rental, idx) => {
                                 return(
-                                    <RentalCard rental={rental} key={idx}/>
+                                    <RentalCard rental={rental} key={idx} onClick={onClick(idx)}/>
                                 );
                             });
         return(

@@ -1,9 +1,6 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import { Paper, Table, Button, TableRow, TableCell } from '@material-ui/core';
-import TableRowColumn from '@material-ui/core/Table'
-
+import { Paper, Table, Button, TableRow, TableCell, TableBody } from '@material-ui/core';
 
 const styles = theme => ({
     root: {
@@ -19,27 +16,29 @@ const styles = theme => ({
 
 class ShoppingItem extends React.Component {
     render() {
-        const { classes } = this.props;
+        const { classes, rental, onClick} = this.props;
         return(
             <div>
                 <Paper className={classes.root}>
-                    <Table className={classes.table}>                        
+                    <Table className={classes.table}>
+                        <TableBody>
                             <TableRow >
-                                <TableCell >
-                                    < img src="https://images.unsplash.com/photo-1495136568018-11a54caad6b5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b4d19de84a578b1175e85e0811f41c97&auto=format&fit=crop&w=500&q=80" height= "75" />
+                                <TableCell width="25%" float="center">  
+                                    < img src={rental.image} height= "75" alt={rental.title}/>
                                 </TableCell>
-                                <TableCell>
-                                    Quaint 3-bedroom home in Gamla stan
+                                <TableCell width="25%" float="center">
+                                    {rental.title}
                                 </TableCell>
-                                <TableCell>
-                                    $230
+                                <TableCell width="25%" flocat="center">
+                                    ${rental.payment.cost}
                                 </TableCell> 
-                                <TableCell>
-                                    <Button color="inherit" variant="contained">
+                                <TableCell width="25%" float="center">
+                                    <Button color="inherit" variant="contained" onClick={onClick}>
                                         Delete
                                     </Button>
                                 </TableCell>                               
-                            </TableRow>                        
+                            </TableRow>
+                        </TableBody>                                          
                     </Table>
                 </Paper>
             </div>
