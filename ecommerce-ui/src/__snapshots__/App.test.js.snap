@@ -1,0 +1,486 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<div
+  class="eCommerceUI"
+>
+  <div
+    name="mainPage"
+  >
+    <div
+      class="HeaderSection-root-261"
+    >
+      <div
+        class="MuiPaper-root-264 MuiPaper-elevation1-267 MuiPaper-rounded-265 MuiCard-root-263"
+      >
+        <header
+          class="MuiPaper-root-264 MuiPaper-elevation4-270 MuiAppBar-root-291 MuiAppBar-positionStatic-295 MuiAppBar-colorDefault-297 HeaderSection-appbar-262"
+        >
+          <div
+            class="MuiToolbar-root-300 MuiToolbar-regular-302 MuiToolbar-gutters-301"
+          >
+            <h4
+              class="MuiTypography-root-304 MuiTypography-h4-319 MuiTypography-colorInherit-333"
+            >
+              Soma's Vacation Rentals
+            </h4>
+          </div>
+        </header>
+      </div>
+    </div>
+    <div>
+      <div
+        class="MuiPaper-root-264 MuiPaper-elevation1-267 MuiPaper-rounded-265 MuiCard-root-263 ShoppingCart-background-340"
+      >
+        <button
+          class="MuiButtonBase-root-370 MuiButton-root-344 MuiButton-contained-355 MuiButton-containedPrimary-356 MuiButton-raised-358 MuiButton-raisedPrimary-359 ShoppingCart-button-341"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label-345"
+          >
+             Shopping Cart 
+          </span>
+        </button>
+        <span
+          class="MuiBadge-root-373 ShoppingCart-cartBadge-343"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root-380 MuiSvgIcon-fontSizeLarge-388"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"
+            />
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+          </svg>
+          <span
+            class="MuiBadge-badge-374 MuiBadge-invisible-378"
+          >
+            0
+          </span>
+        </span>
+        <button
+          class="MuiButtonBase-root-370 MuiButton-root-344 MuiButton-contained-355 MuiButton-containedPrimary-356 MuiButton-raised-358 MuiButton-raisedPrimary-359 ShoppingCart-cartButton-342"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label-345"
+          >
+            Total : $0
+          </span>
+        </button>
+        <div
+          id="shoppingList"
+        />
+      </div>
+    </div>
+    <div>
+      <div
+        class="MuiPaper-root-264 MuiPaper-elevation1-267 MuiPaper-rounded-265 MuiCard-root-263 Rentals-background-389"
+      >
+        <button
+          class="MuiButtonBase-root-370 MuiButton-root-344 MuiButton-contained-355 MuiButton-containedSecondary-357 MuiButton-raised-358 MuiButton-raisedSecondary-360 Rentals-button-390"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label-345"
+          >
+             Rentals 
+          </span>
+        </button>
+        <div
+          class="MuiGrid-container-391 MuiGrid-spacing-xs-24-415"
+        >
+          <div>
+            <div
+              class="MuiPaper-root-264 MuiPaper-elevation1-267 MuiPaper-rounded-265 MuiCard-root-263 RentalCard-card-488"
+            >
+              <div
+                class="MuiCardHeader-root-494"
+              >
+                <div
+                  class="MuiCardHeader-avatar-495"
+                >
+                  <div
+                    class="MuiAvatar-root-500 MuiAvatar-colorDefault-501 RentalCard-avatar-489"
+                  >
+                    A
+                  </div>
+                </div>
+                <div
+                  class="MuiCardHeader-content-497"
+                >
+                  <span
+                    class="MuiTypography-root-304 MuiTypography-body2-312 MuiCardHeader-title-498"
+                  >
+                    Centrally-located Manhattan studio
+                  </span>
+                  <span
+                    class="MuiTypography-root-304 MuiTypography-body2-312 MuiTypography-colorTextSecondary-337 MuiCardHeader-subheader-499"
+                  >
+                    New York , USA
+                  </span>
+                </div>
+              </div>
+              <img
+                alt="Centrally-located Manhattan studio"
+                class="MuiCardMedia-root-503 MuiCardMedia-media-504 RentalCard-media-490"
+                height="300"
+                src="https://images.unsplash.com/photo-1490806230066-f7e6f7bf5052?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2ca889535ea01f912f94ac4ddf0034e0&auto=format&fit=crop&w=500&q=80"
+              />
+              <div
+                class="MuiCardActions-root-505 MuiCardActions-disableActionSpacing-506 RentalCard-actions-491"
+              >
+                <button
+                  class="MuiButtonBase-root-370 MuiButton-root-344 MuiButton-outlined-352 MuiButton-outlinedPrimary-353 MuiButton-sizeSmall-367"
+                  style="margin-right:5px"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label-345"
+                  >
+                    $105
+                  </span>
+                </button>
+                <button
+                  class="MuiButtonBase-root-370 MuiButton-root-344 MuiButton-outlined-352 MuiButton-outlinedPrimary-353 MuiButton-sizeSmall-367"
+                  style="margin-left:5px;margin-right:60px"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label-345"
+                  >
+                    Add To Cart
+                  </span>
+                </button>
+                <button
+                  class="MuiButtonBase-root-370 MuiIconButton-root-508"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiIconButton-label-513"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-380 RentalCard-starFill-492"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                  </span>
+                </button>
+                3
+                <button
+                  class="MuiButtonBase-root-370 MuiIconButton-root-508"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiIconButton-label-513"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-380 RentalCard-reviewFill-493"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M0 0h24v24H0zm15.35 6.41l-1.77-1.77c-.2-.2-.51-.2-.71 0L6 11.53V14h2.47l6.88-6.88c.2-.19.2-.51 0-.71z"
+                        fill="none"
+                      />
+                      <path
+                        d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 14v-2.47l6.88-6.88c.2-.2.51-.2.71 0l1.77 1.77c.2.2.2.51 0 .71L8.47 14H6zm12 0h-7.5l2-2H18v2z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+                133
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="MuiPaper-root-264 MuiPaper-elevation1-267 MuiPaper-rounded-265 MuiCard-root-263 RentalCard-card-488"
+            >
+              <div
+                class="MuiCardHeader-root-494"
+              >
+                <div
+                  class="MuiCardHeader-avatar-495"
+                >
+                  <div
+                    class="MuiAvatar-root-500 MuiAvatar-colorDefault-501 RentalCard-avatar-489"
+                  >
+                    A
+                  </div>
+                </div>
+                <div
+                  class="MuiCardHeader-content-497"
+                >
+                  <span
+                    class="MuiTypography-root-304 MuiTypography-body2-312 MuiCardHeader-title-498"
+                  >
+                    Denver apartment outside Union Station
+                  </span>
+                  <span
+                    class="MuiTypography-root-304 MuiTypography-body2-312 MuiTypography-colorTextSecondary-337 MuiCardHeader-subheader-499"
+                  >
+                    Denver , USA
+                  </span>
+                </div>
+              </div>
+              <img
+                alt="Denver apartment outside Union Station"
+                class="MuiCardMedia-root-503 MuiCardMedia-media-504 RentalCard-media-490"
+                height="300"
+                src="https://images.unsplash.com/photo-1519424187720-db6d0fc5a5d2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=19f783ae564d7c6da4777cde1a84c1c9&auto=format&fit=crop&w=500&q=80"
+              />
+              <div
+                class="MuiCardActions-root-505 MuiCardActions-disableActionSpacing-506 RentalCard-actions-491"
+              >
+                <button
+                  class="MuiButtonBase-root-370 MuiButton-root-344 MuiButton-outlined-352 MuiButton-outlinedPrimary-353 MuiButton-sizeSmall-367"
+                  style="margin-right:5px"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label-345"
+                  >
+                    $130
+                  </span>
+                </button>
+                <button
+                  class="MuiButtonBase-root-370 MuiButton-root-344 MuiButton-outlined-352 MuiButton-outlinedPrimary-353 MuiButton-sizeSmall-367"
+                  style="margin-left:5px;margin-right:60px"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label-345"
+                  >
+                    Add To Cart
+                  </span>
+                </button>
+                <button
+                  class="MuiButtonBase-root-370 MuiIconButton-root-508"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiIconButton-label-513"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-380 RentalCard-starFill-492"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                  </span>
+                </button>
+                4.5
+                <button
+                  class="MuiButtonBase-root-370 MuiIconButton-root-508"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiIconButton-label-513"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-380 RentalCard-reviewFill-493"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M0 0h24v24H0zm15.35 6.41l-1.77-1.77c-.2-.2-.51-.2-.71 0L6 11.53V14h2.47l6.88-6.88c.2-.19.2-.51 0-.71z"
+                        fill="none"
+                      />
+                      <path
+                        d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 14v-2.47l6.88-6.88c.2-.2.51-.2.71 0l1.77 1.77c.2.2.2.51 0 .71L8.47 14H6zm12 0h-7.5l2-2H18v2z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+                381
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="MuiPaper-root-264 MuiPaper-elevation1-267 MuiPaper-rounded-265 MuiCard-root-263 RentalCard-card-488"
+            >
+              <div
+                class="MuiCardHeader-root-494"
+              >
+                <div
+                  class="MuiCardHeader-avatar-495"
+                >
+                  <div
+                    class="MuiAvatar-root-500 MuiAvatar-colorDefault-501 RentalCard-avatar-489"
+                  >
+                    H
+                  </div>
+                </div>
+                <div
+                  class="MuiCardHeader-content-497"
+                >
+                  <span
+                    class="MuiTypography-root-304 MuiTypography-body2-312 MuiCardHeader-title-498"
+                  >
+                    Quaint 3-bedroom home in Gamla stan
+                  </span>
+                  <span
+                    class="MuiTypography-root-304 MuiTypography-body2-312 MuiTypography-colorTextSecondary-337 MuiCardHeader-subheader-499"
+                  >
+                    Stockholm , Sweden
+                  </span>
+                </div>
+              </div>
+              <img
+                alt="Quaint 3-bedroom home in Gamla stan"
+                class="MuiCardMedia-root-503 MuiCardMedia-media-504 RentalCard-media-490"
+                height="300"
+                src="https://images.unsplash.com/photo-1495136568018-11a54caad6b5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b4d19de84a578b1175e85e0811f41c97&auto=format&fit=crop&w=500&q=80"
+              />
+              <div
+                class="MuiCardActions-root-505 MuiCardActions-disableActionSpacing-506 RentalCard-actions-491"
+              >
+                <button
+                  class="MuiButtonBase-root-370 MuiButton-root-344 MuiButton-outlined-352 MuiButton-outlinedPrimary-353 MuiButton-sizeSmall-367"
+                  style="margin-right:5px"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label-345"
+                  >
+                    $230
+                  </span>
+                </button>
+                <button
+                  class="MuiButtonBase-root-370 MuiButton-root-344 MuiButton-outlined-352 MuiButton-outlinedPrimary-353 MuiButton-sizeSmall-367"
+                  style="margin-left:5px;margin-right:60px"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label-345"
+                  >
+                    Add To Cart
+                  </span>
+                </button>
+                <button
+                  class="MuiButtonBase-root-370 MuiIconButton-root-508"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiIconButton-label-513"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-380 RentalCard-starFill-492"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                      <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                      />
+                      <path
+                        d="M0 0h24v24H0z"
+                        fill="none"
+                      />
+                    </svg>
+                  </span>
+                </button>
+                5
+                <button
+                  class="MuiButtonBase-root-370 MuiIconButton-root-508"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiIconButton-label-513"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root-380 RentalCard-reviewFill-493"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M0 0h24v24H0zm15.35 6.41l-1.77-1.77c-.2-.2-.51-.2-.71 0L6 11.53V14h2.47l6.88-6.88c.2-.19.2-.51 0-.71z"
+                        fill="none"
+                      />
+                      <path
+                        d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 14v-2.47l6.88-6.88c.2-.2.51-.2.71 0l1.77 1.77c.2.2.2.51 0 .71L8.47 14H6zm12 0h-7.5l2-2H18v2z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+                83
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`shallow renders 1`] = `
+<div
+  className="eCommerceUI"
+>
+  <MainPage />
+</div>
+`;

@@ -64,7 +64,7 @@ class ShoppingCart extends React.Component {
                     <ShoppingCartIcon fontSize="large" />
                 </Badge>
                 </React.Fragment>                    
-                <Button color= "primary" variant="contained" className={classes.cartButton}>Toatl : ${total}</Button>
+                <Button color= "primary" variant="contained" className={classes.cartButton}>Total : ${total}</Button>
                 <div id="shoppingList">
                     {selectedRentalsList}
                 </div>

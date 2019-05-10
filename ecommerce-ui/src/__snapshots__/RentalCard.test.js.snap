@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`shallow renders 1`] = `
+<RentalCard
+  classes={
+    Object {
+      "actions": "RentalCard-actions-4",
+      "avatar": "RentalCard-avatar-2",
+      "card": "RentalCard-card-1",
+      "media": "RentalCard-media-3",
+      "reviewFill": "RentalCard-reviewFill-6",
+      "starFill": "RentalCard-starFill-5",
+    }
+  }
+/>
+`;

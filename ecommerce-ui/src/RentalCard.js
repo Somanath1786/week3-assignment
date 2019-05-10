@@ -1,6 +1,6 @@
 import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
-
+import {PropTypes} from 'prop-types'
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
 import { Avatar, CardMedia, CardActions, Button, IconButton } from '@material-ui/core';
@@ -34,7 +34,20 @@ const styles = theme => ({
     }
   });
 
-class RentalCard extends React.Component {    
+class RentalCard extends React.Component {
+
+    static propTypes = {
+        rental : PropTypes.shape({
+            location : PropTypes.shape({
+                city : PropTypes.string,
+                country : PropTypes.string
+                }),
+            houseType : PropTypes.string,
+            title : PropTypes.string,
+            image : PropTypes.string
+            }),
+        onClick : PropTypes.func
+    } 
 
     getRentalType(rental)
     {
@@ -65,12 +78,12 @@ class RentalCard extends React.Component {
                 />
                 <CardMedia
                     component="img"
-                    className={this.props.media}
+                    className={classes.media}
                     height="300"
                     image={rental.image} alt={rental.title}>
                 </CardMedia>
 
-                <CardActions className={this.props.actions} disableActionSpacing>
+                <CardActions className={classes.actions} disableActionSpacing>
                     <Button variant="outlined" size="small" color="primary" style={{marginRight:"5px"}}>
                        ${rental.payment.cost}
                     </Button>

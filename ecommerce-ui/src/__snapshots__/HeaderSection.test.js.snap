@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`shallow renders 1`] = `
+<HeaderSection
+  classes={
+    Object {
+      "appbar": "HeaderSection-appbar-2",
+      "root": "HeaderSection-root-1",
+    }
+  }
+/>
+`;

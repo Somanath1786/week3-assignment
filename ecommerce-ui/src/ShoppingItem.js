@@ -1,5 +1,6 @@
 import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
+import {PropTypes} from 'prop-types'
 import { Paper, Table, Button, TableRow, TableCell, TableBody } from '@material-ui/core';
 
 const styles = theme => ({
@@ -15,6 +16,19 @@ const styles = theme => ({
 });
 
 class ShoppingItem extends React.Component {
+
+    static propTypes = {
+        rental : PropTypes.shape({
+            location : PropTypes.shape({
+                city : PropTypes.string,
+                country : PropTypes.string
+                }),
+            houseType : PropTypes.string,
+            title : PropTypes.string,
+            image : PropTypes.string
+            }),
+        onClick : PropTypes.func
+    }
     render() {
         const { classes, rental, onClick} = this.props;
         return(
